@@ -1,13 +1,6 @@
-# Sample Hardhat Project
+# Last-mile dispatch project based on Eth network
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project is a smart-contract for an effective dispatch of parcels based on payments from customers.
+Customers gets an address to pay for the parcel. As the payment is made the item status can be set to dispatch.
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
